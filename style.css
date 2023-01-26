@@ -1,0 +1,54 @@
+#index {
+    background-color: rgb(138, 132, 130);
+    background-size: cover;
+}
+
+header {
+    margin: 10px 0;
+    background-color: orangered;
+}
+a:link { color: red; }
+    a:visited { color: blue; }
+    a:visited:hover { color: yellow; }
+    a:hover { color: green; }
+    a:active { color: gray; }
+nav , section {
+    display: inline-block;
+    vertical-align: top;
+    height: 500px;
+}
+
+nav {
+    width: 20%;
+}
+
+section {
+    width: 70%;
+}
+
+img {
+    display: block;
+    margin: 100px 10px 600px 100px;
+    width: 300px;
+    height: 200px;
+}
+
+iframe {
+    width: 100%;
+    height: 480px;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-left: 1px;
+    margin-bottom: 4px;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 15px;
+    width: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+font-weight: larger;
+}
+
